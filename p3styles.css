@@ -280,7 +280,7 @@ nav ul li
     -moz-text-fill-color: transparent;
 }
 
-@media(max-width: 680px)
+@media screen and (max-width: 767px)
 {
 	main
 	{
