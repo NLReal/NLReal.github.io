@@ -1,0 +1,347 @@
+body
+{
+  	background:url('images/backgroundimage.jpg');
+	background-color:rgba(0,0,0,0.6);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+    font-family: Verdana, sans-serif;
+    padding: 25px 10px 25px 10px;
+	margin: auto;
+}
+
+header
+{
+	margin: 5px;
+}
+
+main
+{
+	padding: 20px;
+  	border: solid 2px;
+  	border-color: #FFF;
+  	border-radius: 10px;
+  	background-color:rgba(255,255,255,0.35);
+  	width: 800px;
+  	margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+}
+
+#pageInfo
+{
+	height: 125px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top: -100px;
+}
+
+#NL
+{
+	border: solid 2px;
+  	border-color: #FFF;
+  	border-radius: 50%;
+  	
+}
+
+#pfp
+{
+  	border: solid 2px;
+  	border-color: #FFF;
+  	border-radius: 50%;
+  	width: 175px;
+  	height: 175px;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+
+}
+
+#homeInfo
+{
+	margin: auto;
+	text-align: center;
+}
+
+section
+{
+	margin: 50px auto;
+}
+
+#contactSection
+{
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+.pictures
+{
+	width: 475px;
+	height: 275px;
+	border: solid 1px;
+	border-color: #FFF;
+	border-radius: 25%;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+#picture
+{
+	width: 45%;
+	height: 400px;
+	border: solid 1px;
+	border-color: #FFF;
+	border-radius: 25%;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.paraPic
+{
+	float: right;
+	width: 40%;
+	position: relative;
+	top: 50px;
+}
+
+h3
+{
+	margin: 10px auto;
+}
+
+p
+{
+	margin: 5px auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+#mail
+{
+	float: right;
+	position: relative;
+	top: 55px;
+	left: 100px;
+}
+#personalNumber
+{
+	float: right;
+	position: relative;
+	top: 80px;
+	left: 223px;
+}
+
+nav
+{
+	margin: auto;
+	text-align:center;
+	position: relative;
+	left: -7px;
+}
+
+a
+{
+	color: #FFF;
+}
+
+a:link 
+{
+  text-decoration: none;
+}
+
+a:hover
+{
+	background-color: #cee0f9;
+    background-image: linear-gradient(90deg, #cee0f9, #00b8ff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+li
+{
+	list-style-type: none;
+}
+
+#link
+{
+	float: right;
+	position: relative;
+	top: 30px;
+	left: -135px;
+}
+
+#logo
+{
+	border: solid 1px;
+  	border-color: #FFF;
+  	border-radius: 50%;
+  	width: 25px;
+  	height: 25px;
+  	float: right;
+  	position: relative;
+	top: 25px;
+	left: -235px;
+}
+
+form
+{
+	width: 80%;
+
+}
+
+label
+{
+	display: inline-block;
+	width: 10%;
+	padding-right: 35px;
+	padding-bottom: 15px;
+}
+
+#lblcomment
+{
+	position: relative;
+	bottom: 70px;
+}
+
+input
+{
+	width: 50%;
+}
+
+textarea
+{
+	display: inline-block;
+	width: 50%;
+	resize: none;
+}
+
+#labelInput li
+{
+	display: inline;
+	padding-right: 25px;
+}
+
+button
+{
+	font-size: 15px;
+	width: 75px;
+	border-radius: 0px;
+	border: 0px;
+	position: relative;
+	left: 305px;
+}
+
+button:hover
+{
+	background-color: #cee0f9;
+    background-image: linear-gradient(90deg, #cee0f9, #00b8ff);
+    background-size: 100%;
+    color: #000;
+}
+
+nav ul
+{
+	display:inline-block;
+}
+
+nav ul li
+{
+	display:inline;
+	justify-content: space-between;
+}
+
+.botnav
+{
+	margin: auto;
+	font-size: 10px;
+	color: #FFF;
+}
+
+.error
+{
+	position: relative;
+	right: 135px;
+	background-color: #FF0F00;
+    background-image: linear-gradient(90deg, #FF0F00, #70FF00);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+@media(max-width: 680px)
+{
+	main
+	{
+		width: 50%;
+		font-size: 12px;
+	}
+	p
+	{
+		width: 100%;
+	}
+	img
+	{
+		width: 100%;
+		height: 25%;
+	}
+	.pictures, #picture
+	{
+		width: 100%;
+		height: 25%;
+	}
+	.paraPic
+	{
+		width: 100%;
+		position: relative;
+		font-size: 10px;
+		top: -15px;
+	}
+
+	label
+	{
+		padding:  5px 5px 5px 5px;
+		position: relative;
+		top: -0px;
+	}
+
+	input
+	{
+		display: block;
+		width: 100%;
+	}
+
+	textarea
+	{
+		width: 100%;
+	}
+	.error
+	{
+		position: relative;
+		top: -10px;
+		left: -10px;
+		margin: 0px auto;
+	}
+	button
+	{
+		position: relative;
+		left: 40px;
+	}
+	#link
+	{
+		position: relative;
+		top: 5px;
+		left: -100px;
+	}
+}

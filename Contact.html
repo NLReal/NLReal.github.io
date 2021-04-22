@@ -1,0 +1,80 @@
+<!-------w----------
+
+    Project 3
+    Name: Neil De Guzman
+    Date: 2021-04-06
+    Description: Project 3 Contact HTML.
+	
+------------------->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Contact Me</title>
+	<link rel="stylesheet" type="text/css" href="p3styles.css">
+	<script src="p3Validation.js"></script>
+</head>
+<body>
+	<header> 
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a> | </li>
+				<li><a href="About.html">About Me</a> | </li>
+				<li><a href="Portfolio.html">Portfolio</a> | </li>
+				<li><a href="Contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div id="pageInfo">
+			<img id ="pfp" src="images/logo.jpg" alt="Avatar">
+			<h1>Contact Me</h1>
+		</div>
+			<ol>
+				<li id="link"><a href="https://www.linkedin.com/in/neildeguz/">Linkedin</a></li>
+			</ol>
+		<section id="contactSection">
+			<form id="regEx" method="post">
+				<ol id="labelInput">
+					<li>
+						<label for="name">Name:</label>
+						<input type="text" id="name" name="name" autofocus><br/>
+						<p class="error" id="name_error">* Required field</p>
+					</li>
+					<li>
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" placeholder="example@mail.com"><br />
+						<p class="error" id="email_error">* Required field</p>
+						<p class="error" id="Invalidemail_error">* Invalid email</p>
+					</li>
+					<li>
+						<label for="phone">Phone:</label>
+						<input type="tel" id="phone" name="phone" placeholder="123-456-7890"><br />
+						<p class="error" id="phone_error">* Required field</p>
+						<p class="error" id="Invalidphone_error">* Invalid number</p>
+					</li>
+					<li>
+						<label id="lblcomment">Comments:</label>
+						<textarea id="comment" rows="5" placeholder="Type here..."></textarea>
+						<p class="error" id="comment_error">* Required field</p>
+					</li>
+				</ol>
+				<button type="submit" id="submit" >Submit</button>
+				<button type="reset" id="clear">Clear</button>		
+			</form>
+			
+		</section>
+	</main>	
+	<footer class="botnav"> 
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a> | </li>
+				<li><a href="About.html">About Me</a> | </li>
+				<li><a href="Portfolio.html">Portfolio</a> | </li>
+				<li><a href="Contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>
